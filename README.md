@@ -4,7 +4,7 @@
 - 🌱 I’m currently learning operating systems, C, Linux, and learning how to acquire cyber security certifications, including penetration testing!
 - 💞️ I’m looking to collaborate on anything and everything! I am always ready to learn new things and meet new people!
 - 📫 How to reach me: 
-- Student email: cmb153@lateh.edu
+- Student email: cmb153@latech.edu
 - Personal email: colinb71037@hotmail.com
 
 <!---
