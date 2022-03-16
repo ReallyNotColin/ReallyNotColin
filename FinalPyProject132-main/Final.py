@@ -1,5 +1,10 @@
-""" THIS VERSION IS FOR DEVELOPMENT PURPOSES"""
-""" THE FINAL, RPi-COMPATIBLE VERSION IS gameoopRPi.py"""
+###############################################################################
+# Name: Colin Bumpass, CSC 132 003
+# Date: April 2021
+# Desc: Python version of Tech Universe: Re, a program developed using pygame
+#       for our CSC 132 final. 
+###############################################################################
+""" THE FINAL, RPi-COMPATIBLE VERSION IS FinalRPICompatible.py"""
 
 # Import pygame and random module
 import pygame
