@@ -1,0 +1,3 @@
+
+a) grep '^[A|E]..b.*[a|n]$' /usr/share/dict/words
+b) Alabama, Alabaman, Alabamian, Arabia, Arabian, Aruba
