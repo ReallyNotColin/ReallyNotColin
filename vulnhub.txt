@@ -1,0 +1,17 @@
+Guide to Vulnhub
+
+1. Download Virtual Box
+2. Download an "attacker" virtual machine (either kali or parrot, I used kali).
+	2.5. sudo apt update to update the machine and thus get access to newer tools
+	       sudo apt install TOOLNAME to get a specific tool (like exif for steganography)
+3. Download a "target" virtual machine
+4. Add both machines (ova or vbox files) to the virtual box
+5. For each machine, click the "Settings" tab and go to the "Network" tab.
+    Now on first "Adapter" tab, change "Attached to:" to "Internal Network." 
+    Create a custom name for the internal network. Something like test-network or something like that
+6. Go to your Host machine terminal (the computer you downloaded virtual box on == host machine) 
+    change the directory to the virtual box files. Usually found C:/ Program Files / Oracle / Virtual Box
+    copy the address as text and paste it into the terminal after "cd " to change directory
+    Now paste this command into the terminal, but where it says "test-network2" you can sub in your own dhcp server name 
+    vboxmanage dhcpserver add --netname test-network2 --ip 10.10.10.1 --netmask 255.255.255.0 --lowerip 10.10.10.2 --upperip 10.10.10.12 --enable
+7. If no error appears, you downloaded it!! Type vboxmanage list dhcpservers to see your dhcp server running
