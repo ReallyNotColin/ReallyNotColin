@@ -1,0 +1,16 @@
+Guide to Git:
+
+1. Download Git
+2. Open the desired folder that will be a link to a repository on github
+3. Rightclick, "Open GitBash" 
+4. type git init
+5. type git remote add origin PASTE HYPERLINK OF REPOSITORY HERE
+6. type git pull origin main (pull from main branch), which pulls the repository to the folder 
+7. create files, delete files; whatever you want. 
+8. type git add .    (The period adds all files within folder)
+9. type git commit -m "TYPE YOUR OWN MESSAGE HERE MAKE IT SHORT AND CONCISE"
+10. git push origin main
+
+Other Notes:
+- I am sure there is some priority conflict with main and master branches but with just one person, it is fine
+- Use "ls" to list everything in the folder. It is bash, so bash commands work (probably)

@@ -1,6 +1,0 @@
-- Finally figure out the try and except for all languages
-- maybe create a GUI with C++
-- revist classes and inheritence and polymorphism and such
-- create a calculator? 
-- create a program to find subnet mask and host ip address
-    - but first create a program to convert decimal to binary
